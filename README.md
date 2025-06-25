@@ -1,50 +1,44 @@
-# Network Reconnaissance – Task 1
+# 🔍 Network Reconnaissance – Task 1
 
 ## 🎯 Objective
-In this task, I learned to discover open ports on devices in my local network using Nmap.
+In this task, I practiced network reconnaissance by discovering live hosts and open ports on devices in a local network.  
+The goal was to gain hands-on experience with Nmap and understand basic scanning techniques.
 
 ---
 
 ## 🔧 Tools Used
-- Nmap (installed using the official website)
-- Kali Linux VM on VirtualBox
-- GitHub for version control and documentation
+- 🧰 Nmap
+- 🧰 Kali Linux VM on VirtualBox
+- 🧰 GitHub for version control and documentation
 
 ---
 
 ## 🧭 Steps Followed
 1. Installed Nmap on my Kali Linux VM.
-2. Scanned the local network (`nmap -sS 192.168.130.0/24`) to discover live hosts and their open ports.
-3. Saved the scan results to a file.
-4. Encountered issues with guest additions and file sharing; solved by using the shared folder feature.
-5. Uploaded the `nmap` results and screenshots to GitHub.
+2. Performed a local network scan (`nmap -sS <target_subnet>`) to identify live hosts and their open ports.
+3. Saved the scan results into a file.
+4. Encountered file sharing issues between VM and host — fixed by setting up VirtualBox Guest Additions and shared folders.
+5. Uploaded scan results and other relevant files to this GitHub repo.
+---
+
+## 🐛 Issues Faced & Solutions
+| Issue | Solution |
+|--------|------------|
+| Drag-and-drop failed between VM and host | Installed VirtualBox Guest Additions and enabled shared folders |
+| SMB client access denied | Enabled file and printer sharing on Windows and configured credentials properly |
+| GitHub authentication failed | Generated a Personal Access Token and used it for commits instead of a password |
 
 ---
 
-## 🖼️ Screenshots
-| Screenshot | Description |
-|------------|-------------|
-| ![Scan Output](![task 1 -1](https://github.com/user-attachments/assets/5d37d763-5223-4a45-9504-94a764e4b47f)
-) | Nmap scan output showing open ports |
-| ![Scan Summary](![task 1 -2](https://github.com/user-attachments/assets/98182b50-cb29-4d26-a230-eb292e127791)
-) | Nmap scan summary for 192.168.130.x network |
-
-*(You can add more screenshots as needed)*
+## ✅ What I Learned
+- ✅ Basic Nmap scanning techniques (`-sS`, host discovery, etc.)
+- ✅ Setting up VM environments properly for file sharing
+- ✅ Creating GitHub repos and pushing files securely with a PAT
+- ✅ Practicing good privacy habits like avoiding sharing IPs or other personal data
 
 ---
 
-## 🐛 Errors Faced and Solutions
-| Error | Solution |
-|-------|------------|
-| `Drag and drop failed` | Installed `virtualbox-guest-utils` and enabled shared folders |
-| `Access denied for SMB client` | Configured proper credentials and enabled file and printer sharing on host Windows |
-| `Authentication failed for GitHub` | Generated a Personal Access Token (PAT) and used it instead of password |
+## 🧠 Conclusion
+This hands-on task strengthened my understanding of network reconnaissance and helped me appreciate the importance of privacy and security in every phase of a project.
 
----
-
-## ✅ Conclusion
-This task gave me hands-on practice in:
-- Reconnaissance and port scanning basics
-- Configuring a VM properly for file sharing
-- Managing a GitHub repository with version control
 
