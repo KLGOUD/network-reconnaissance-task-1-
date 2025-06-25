@@ -24,8 +24,10 @@ In this task, I learned to discover open ports on devices in my local network us
 ## 🖼️ Screenshots
 | Screenshot | Description |
 |------------|-------------|
-| ![Scan Output](latha/task-1-1.jpg) | Nmap scan output showing open ports |
-| ![Scan Summary](latha/task-1-2.jpg) | Nmap scan summary for 192.168.130.x network |
+| ![Scan Output](![task 1 -1](https://github.com/user-attachments/assets/5d37d763-5223-4a45-9504-94a764e4b47f)
+) | Nmap scan output showing open ports |
+| ![Scan Summary](![task 1 -2](https://github.com/user-attachments/assets/98182b50-cb29-4d26-a230-eb292e127791)
+) | Nmap scan summary for 192.168.130.x network |
 
 *(You can add more screenshots as needed)*
 
